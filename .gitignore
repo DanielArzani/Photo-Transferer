@@ -1,0 +1,48 @@
+# Build artifacts
+bin/
+obj/
+*.exe
+*.dll
+*.app
+*.pdb
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Mac files (if you ever sync cross-platform)
+.DS_Store
+
+# Rider/JetBrains
+.idea/
+
+# Python cache (if you add pyicloud scripts)
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# Publish output
+publish/
+*.db
+
+# Environment files
+.env
+.env.*
+
+# Auto-generated files
+*.generated.cs
+*.g.*
+
+# Installer artifacts
+*.msix
+*.msi
+*.zip
+
+# Ignore secrets or API config
+secrets.json
+appsettings.*.json
